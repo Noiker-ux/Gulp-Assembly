@@ -15,6 +15,12 @@
 
 Проверьте установлен ли Gulp глобально
 Если нет установите его командой: npm install --global gulp-cli
+
+Папка проекта не должна называться gulp
+
+Запускать можно и отдельные функции, например gulp css
+
+WEBP-CSS выдает ошибку если в названии файла картинки есть пробелы и/или кириллица
 ### Функционал сборки
 1. Собирает все файлы html в один
 2. Cобирает все файлы css в один
@@ -49,3 +55,8 @@
 16. ttf2woff - https://www.npmjs.com/package/gulp-ttf2woff
 17. ttf2woff2 - https://www.npmjs.com/package/gulp-ttf2woff2
 18. SVG Sprite - https://www.npmjs.com/search?q=gulp-svg-sprite
+### Перечень команд в сборке
+1. gulp - запустить сборку
+2. gulp [название функции] - запустить определенную функцию
+3. gulp otf2ttf - переконвертировать формат .otf в .ttf
+4. gulp svgSprite - Собрать спрайт из svg картинок
