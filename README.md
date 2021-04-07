@@ -4,9 +4,9 @@
 1. Cкачать файлы командой: git clone https://github.com/Noiker-ux/Gulp-Assembly
 2. Переименовать название папки в название проекта.
 3. Открыть папку в Visual Studio Code, открыть терминал и ввести следующие команды:
-  а. npm i
-  b. npm install webp-converter@2.2.3 --save-dev
-  c. npm audit fix
+  - npm i
+  - npm install webp-converter@2.2.3 --save-dev
+  - npm audit fix
 4. Наша сборка установленна! Вводим команду: gulp или npx gulp
 ### Примечания
 Перед работой с gulp проверьте установлен ли node.js
